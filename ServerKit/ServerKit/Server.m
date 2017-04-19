@@ -21,6 +21,7 @@ static NSTimeInterval const kTimeOutInterval = 15.0f;
 @property (nonatomic, weak)     GCDAsyncSocket  *socket;
 @end
 
+
 @interface Server () <GCDAsyncSocketDelegate>
 @property (nonatomic) GCDAsyncSocket                            *listeningSocket;
 @property (nonatomic) NSMutableArray<GCDAsyncSocket *>          *connectedSockets;

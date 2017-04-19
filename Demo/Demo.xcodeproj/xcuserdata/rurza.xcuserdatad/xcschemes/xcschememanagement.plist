@@ -4,25 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ServerKit.xcscheme</key>
+		<key>Demo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>ServerKitTests.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5B0816591EA20EE8003B1E90</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5B0816621EA20EE8003B1E90</key>
+		<key>5BDB48BC1EA7F68E0090740E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

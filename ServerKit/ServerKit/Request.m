@@ -8,12 +8,14 @@
 
 #import "Request.h"
 #import "NSString+HTTPMethod.h"
+#import "GCDAsyncSocket.h"
 
 @interface Request ()
-@property (nonatomic) NSDictionary    *headers;
-@property (nonatomic) NSData          *body;
-@property (nonatomic) NSURL           *url;
-@property (nonatomic) NSString        *methodString;
+@property (nonatomic) NSDictionary          *headers;
+@property (nonatomic) NSData                *body;
+@property (nonatomic) NSURL                 *url;
+@property (nonatomic) NSString              *methodString;
+@property (nonatomic, weak) GCDAsyncSocket  *socket;
 @end
 
 @implementation Request
