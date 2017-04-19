@@ -115,6 +115,9 @@ static NSTimeInterval const kTimeOutInterval = 15.0f;
         }
     } else {
         self.isRunning = NO;
+        if ([self.delegate respondsToSelector:@selector(serverDidStop:)]) {
+            [self.delegate serverDidStop:self];
+        }
     }
 }
 

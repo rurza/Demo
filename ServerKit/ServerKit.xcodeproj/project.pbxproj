@@ -21,6 +21,7 @@
 		5B716CA51EA2105000CB36CF /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B716CA31EA2105000CB36CF /* GCDAsyncSocket.m */; };
 		5B716CA61EA2105000CB36CF /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B716CA31EA2105000CB36CF /* GCDAsyncSocket.m */; };
 		5B9315A01EA6A292000F43E2 /* RouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B93159F1EA6A292000F43E2 /* RouteTests.m */; };
+		5B9315A21EA7B651000F43E2 /* RequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9315A11EA7B651000F43E2 /* RequestTests.m */; };
 		5BD885C21EA228040080C3FD /* Server.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD885C01EA228040080C3FD /* Server.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BD885C31EA228040080C3FD /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD885C11EA228040080C3FD /* Server.m */; };
 		5BDA56A51EA4B0CE006A6A8A /* NSString+HTTPMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDA56A31EA4B0CE006A6A8A /* NSString+HTTPMethod.h */; };
@@ -56,6 +57,7 @@
 		5B716CA21EA2105000CB36CF /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		5B716CA31EA2105000CB36CF /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		5B93159F1EA6A292000F43E2 /* RouteTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteTests.m; sourceTree = "<group>"; };
+		5B9315A11EA7B651000F43E2 /* RequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTests.m; sourceTree = "<group>"; };
 		5BD885C01EA228040080C3FD /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
 		5BD885C11EA228040080C3FD /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
 		5BDA56A31EA4B0CE006A6A8A /* NSString+HTTPMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTTPMethod.h"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				5B0816681EA20EE8003B1E90 /* ServerTests.m */,
 				5B08166A1EA20EE8003B1E90 /* Info.plist */,
 				5B93159F1EA6A292000F43E2 /* RouteTests.m */,
+				5B9315A11EA7B651000F43E2 /* RequestTests.m */,
 			);
 			path = ServerKitTests;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B716CA61EA2105000CB36CF /* GCDAsyncSocket.m in Sources */,
+				5B9315A21EA7B651000F43E2 /* RequestTests.m in Sources */,
 				5B0816691EA20EE8003B1E90 /* ServerTests.m in Sources */,
 				5B9315A01EA6A292000F43E2 /* RouteTests.m in Sources */,
 			);
