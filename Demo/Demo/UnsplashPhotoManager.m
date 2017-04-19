@@ -44,6 +44,7 @@
     [photos enumerateObjectsUsingBlock:^(UnsplashPhoto * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if (![self.photos containsObject:obj]) {
             [self.photos addObject:obj];
+            NSLog(@"new photo 🙈");
         }
     }];
     [self.photos sortUsingComparator:^NSComparisonResult(UnsplashPhoto * _Nonnull obj1, UnsplashPhoto * _Nonnull obj2) {

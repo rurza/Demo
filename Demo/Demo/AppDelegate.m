@@ -34,6 +34,7 @@
     }];
     
     [self.server get:@"/photos" withHandler:^Response * _Nonnull(NSArray * _Nullable variables, Request * _Nonnull request) {
+        NSLog(@"new request %@", request);
         if (weakSelf.manager.photos.count > 0) {
             Response *response = Response.ok;
             response.json = YES;
@@ -72,7 +73,6 @@
                 }
             }
             [self.manager addUniquePhotos:photos];
-            NSLog(@"new photos 🙈");
         }
     }];
 }
